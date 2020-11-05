@@ -164,6 +164,7 @@
     datePicker.calendar = self.calendar;
     datePicker.timeZone = self.timeZone;
     datePicker.locale = self.locale;
+    datePicker.preferredDatePickerStyle = UIDatePickerStyleWheels;
 
     UIColor *textColor = [self.pickerTextAttributes valueForKey:NSForegroundColorAttributeName];
     if (textColor) {
